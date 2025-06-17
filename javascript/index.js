@@ -2,7 +2,7 @@ console.log("HAHAHA");
 var nameInput = document.getElementById("webNameInput");
 var linkInput = document.getElementById("webLinkInput");
 var stachBtn = document.getElementById("submitBtn");
-var nameRegex = /^[A-Za-z ]{3,8}$/;
+var nameRegex = /^[A-Za-z ]{3,15}$/;
 var linkRegex = /^(https?:\/\/)[\w.-]+\.[a-z]{2,}.*$/i;
 var dataArray = [];
 if (localStorage.getItem("data") != null) {
